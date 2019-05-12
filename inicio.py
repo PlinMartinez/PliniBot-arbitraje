@@ -1,5 +1,5 @@
-print ("hola que tal")
+print("hola que tal")
 
 import math
 
-print (math.pi)
+print(math.pi)
