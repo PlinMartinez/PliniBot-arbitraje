@@ -1,0 +1,2 @@
+usuario='prueba'
+clave='secreta'
