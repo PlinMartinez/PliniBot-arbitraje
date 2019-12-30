@@ -1,0 +1,1 @@
+{'ADA/BNB': 7.2, 'ADA/BTC': 3.7, 'ADA/ETH': 3.4, 'ADA/PAX': 12.0, 'ADA/TUSD': 12.1, 'ADA/USDC': 12.1, 'ADA/USDT': 11.3, 'ADX/BNB': 9.9, 'ADX/BTC': 9.2, 'ADX/ETH': 12.1, 'AE/BNB': 10.3, 'AE/BTC': 8.9, 'AE/ETH': 16.7, 'AGI/BNB': 21.0, 'AGI/BTC': 21.9}
