@@ -1,5 +1,5 @@
 # AQUI GUARDO LAS CLAVES A IR USANDO
 
 # ACCESO A BINANCE
-api_key = 'VcK8LhTeq4W1AIYHlnjyAV5haIIsohDdc6nEoqMKYm91ujoHyA3T4gLxXOeWUbH2'
-secret = 'LjcMHuiPrVK3gOkDXDX0NNzo1UXRHEaVbdYDB84GKXeNSdvxAHc8znoFXVofJB2v'
+api_key = 'VcK8'
+secret = 'LjcM'
