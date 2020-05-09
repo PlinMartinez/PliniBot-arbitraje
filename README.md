@@ -19,3 +19,12 @@ buscatriangulos.py le metes el listado de pares que tiene cualquier exchange y t
 Despues el triangular operaciones se puede hacer de 6 formas realmente, VCC,CVV, ... (lo estudias y entenderas), entonces el arbibot3single.py revisa cada camino (ojo con los decimales y compras minimas)
 
 finalmente ya solo queda hacer un bot continuo para buscar oportunidades y lanzar compras segun donde lo necesites implementar
+
+para un correcto desarrollo se va a estructurar el proyecto mediante mini servicios universales para ir componiendo una red universal de seguimiento de crypto monedas
+
+la idea base es primero monitorizar todas las operaciones de todos los exchanges, despues analizar en detalle para ver si existe correlacion, ballenas actuando y/o arbitrajes existentes así como medir los tiempos de duracion
+
+una vez analizado actuar en consecuencia, crear valor para los compradores aportando liquidez al sistema en aquellos casos que exista oportunidad de ganancia
+
+
+
