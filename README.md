@@ -27,4 +27,5 @@ la idea base es primero monitorizar todas las operaciones de todos los exchanges
 una vez analizado actuar en consecuencia, crear valor para los compradores aportando liquidez al sistema en aquellos casos que exista oportunidad de ganancia
 
 
+reactivamos el asunto
 
