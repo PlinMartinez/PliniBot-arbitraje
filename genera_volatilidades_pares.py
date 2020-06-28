@@ -1,5 +1,6 @@
 
 # IMPORTA FUNCIONES NECESARIAS PARA TRABAJAR
+#adandio cambio junio 2020
 
 from funciones.utilidades import instanciar
 from funciones.utilidades import grabar_csv
