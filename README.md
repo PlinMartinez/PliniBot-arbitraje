@@ -1,31 +1,21 @@
 # PliniBot
-# Esto es un bot de trading para publico de habla hispana
-# Las funcionalidades a tener son todas las importantes para hacer buen crypto 
-# un poco de backtesting, live trading, cargar datos, analisis tecnicos, deep learning, redes neuronales, grabar registro ventas , compatibilidad con señales, C++, R y HFT
+# here you have some scripts for find tri-arbitraje posibilities in all exchanges around world
 
-# Tiene por un lado un fichero que busca en binance los arbitrajes entre 3 pares posibles
-# Por otro lado tiene un wrapper de ordenes que lo junta con pandas para analizar la info
+# YOU NEED TO HAVE CCXT , PYTHON, AND SOME SKILLS OF BASH
+# FIRST EXECUTE FOR EXAMPLE
 
-# si alguien quiere ayudar en la creacion de red mundial de bots escribir a manuelpaz@infopyme.com
+python buscar_triangulos binance
 
+# AND WILL RETURN A FILE WITH ALL ARBITRAGE OF THIS EXCHANGE
 
-#vamos a intentar que sea el mejor del mundo
+LATER USE ANOTHER FILE FOR SEE THE ORDER BOOK OF THESE 3 PAIRS AND DETECT IF ANY OF THEM GIVE PROFIT
 
-(es multiexchange y multicamino)
-EL ARBITRAJE TRIANGULAR SE COMPONE DE COMPRAS EUR/DOLAR, ESOS EUROS LOS CAMBIAS POR OTRA DIVISA Y LUEGO CRUZAS CON DOLARES Y VES SI HAS GANADO O PERDIDO DINERO
-PARA HACER ESTO SE DESCOMPONE EN 3 PASOS
-buscatriangulos.py le metes el listado de pares que tiene cualquier exchange y te saca (con tiempo) todas las triangulaciones que existen
+IT´S MULTIEXCHANGE AND MULTIWAY (YOU CAN START AND FINISH WITH BUY SELL SELL IN ANY PAIR
 
-Despues el triangular operaciones se puede hacer de 6 formas realmente, VCC,CVV, ... (lo estudias y entenderas), entonces el arbibot3single.py revisa cada camino (ojo con los decimales y compras minimas)
+I HAVE CHANGE TO ENGLISH FOR BE OPEN TO MORE PEOPLE
 
-finalmente ya solo queda hacer un bot continuo para buscar oportunidades y lanzar compras segun donde lo necesites implementar
+TODO:
 
-para un correcto desarrollo se va a estructurar el proyecto mediante mini servicios universales para ir componiendo una red universal de seguimiento de crypto monedas
-
-la idea base es primero monitorizar todas las operaciones de todos los exchanges, despues analizar en detalle para ver si existe correlacion, ballenas actuando y/o arbitrajes existentes así como medir los tiempos de duracion
-
-una vez analizado actuar en consecuencia, crear valor para los compradores aportando liquidez al sistema en aquellos casos que exista oportunidad de ganancia
-
-
-reactivamos el asunto
+NOW IN DEVELOPMENT BI-ARBITRAGE AND TRI-ARBITRAGE OF ALL EXCHANGES OF ALL PAIRS IN THE WORLD
+WITH THIS "HEAVY" OBJECT BACKTESTING WITH PANDAS FOR VERIFY IF ARE PROFIT OR NOT
 
